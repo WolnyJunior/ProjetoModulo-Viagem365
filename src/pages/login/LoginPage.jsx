@@ -1,18 +1,19 @@
 import styles from './styles.module.css'
 import { useForm } from 'react-hook-form'
-// import { useAuth } from '../../contexts/auth'
+import { useAuth } from '../../contexts/auth/auth'
 import { Link, useNavigate } from 'react-router-dom'
 function LoginPage() {
 
-    // const {signIn}=useAuth()
+    const { signIn } = useAuth()
     // const navigate = useNavigate()
     const { register, handleSubmit, formState } = useForm()
     const { errors, isSubmitting } = formState
 
     async function onSubmit(dados) {
+        console.log(dados)
         try {
             await signIn(dados)
-            navigate('/dashboard')
+            // navigate('/dashboard')
         } catch (error) {
             alert(error)
         }
@@ -36,11 +37,6 @@ function LoginPage() {
                                         value: true,
                                         message: 'Campo obrigatório.'
                                     }
-                                    // ,
-                                    // maxLength: {
-                                    //     value: 20,
-                                    //     message: 'Esse campo permite um número máximo de 20 caracteres.'
-                                    // }
                                 })}
                             />
                             <label htmlFor="floatingInput">Email</label>

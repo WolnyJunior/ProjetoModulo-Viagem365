@@ -1,59 +1,39 @@
 import { createContext, useContext, useState } from "react";
 
-const urlDaAPI = 'http://localhost:3000/'
+const urlDaAPI = 'http://localhost:3000/usuarios'
 
 export const AuthContext = createContext({
     user: null,
-    signIn: async () => { },
-    signOut: () => { }
+    signIn: async () => { }
 })
 
 export function AuthProvider({ children }) {
-    const [user, setUser] = useState(() => {
-        const usuarioLogado = localStorage.getItem('@viagem365-storage')
-        if (usuarioLogado) {
-            return JSON.parse(usuarioLogado)
-        }
-        return null
-    })
+    const [user, setUser] = useState(null)
 
-    async function signIn(data) {
+    async function signIn(email, senha) {
         try {
-            const response = await fetch(`${urlDaAPI}users?email=${email}&senha=${senha}`)
-            if (!response.ok) {
+            console.log('Buscando usuários...');
+
+            const response = await fetch(`${urlDaAPI}usuarios?email=${email}&senha=${senha}`)
+            
+            if(!response.ok){
                 throw new Error('Erro ao buscar usuário.')
             }
 
-            const userResponse = {
-                id: Date.now(),
-                nome: data.nome,
-                email: data.email
-            }
-            setUser(userResponse)
-            localStorage.setItem('@viagem365-storage', JSON.stringify(userResponse))
-            localStorage.setItem('@viagem365:token', Date.now())
-
             const data = await response.json()
+            console.log('Usuários encontrados:', usuarios);
 
             if (data.length > 0) {
-                const usuario = data[0]
-                setUser(usuario)
-                return true
+                const usuario = data[0];
+                setUser(usuario);
+                return true;
             } else {
-                return false
+                return false;
             }
-
-
         } catch (error) {
             console.error('Erro ao fazer login', error)
             return false
         }
-    }
-
-    function signOut() {
-        setUser(null)
-        localStorage.removeItem('@lab365:userLogger')
-        localStorage.removeItem('@lab365:token')
     }
 
     return (
