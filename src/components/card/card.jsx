@@ -1,28 +1,27 @@
-import { LogOut, User, Earth } from 'lucide-react'
-import { useAuth } from '../../contexts/auth/auth'
+import { User, Earth } from 'lucide-react'
 import styles from './styles.module.css'
+import { useBuscas } from '../../contexts/busca'
 
 function Card() {
-    const { user, signOut } = useAuth()
+    const { locais, usuarios } = useBuscas()
 
     return (
         <>
             <div className={styles.container}>
                 <div className={`${styles.userCard} bg-primary-subtle text-secondary`}>
                     <h4>Usuário</h4>
-                    <span>Gui ou turista</span>
+                    <span>{usuarios ? `${usuarios.length} Usuarios` : 'Carregando...'}</span>
                     <div className={styles.icons}>
                         <span><User /></span>
                     </div>
                 </div>
                 <div className={`${styles.userCard} bg-primary-subtle text-secondary`}>
                     <h4>Passeios</h4>
-                    <span>Quantidade de passeios</span>
+                    <span>{locais ? `${locais.length} Locais` : 'Carregando...'}</span>
                     <div className={styles.icons}>
                         <span><Earth /></span>
                     </div>
                 </div>
-
             </div>
         </>
     )
