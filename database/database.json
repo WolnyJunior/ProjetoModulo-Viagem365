@@ -1,0 +1,24 @@
+{
+    "usuarios": [
+        {
+            "nome": "admin",
+            "email": "admin@admin.com",
+            "sexo": "feminino",
+            "cpf": "87456698741",
+            "dataNascimento": "09/08/1998",
+            "senha": "12345678",
+            "cep": "88140000",
+            "numero": "150",
+            "cidade": "Florianopolis",
+            "estado": "SC",
+            "logradouro": "Presidente Castelo Branco",
+            "complemento": "",
+            "bairro": "Centro",
+            "localidade": "",
+            "uf": ""
+        }
+    ],
+    "destinos": [
+        {}
+    ]
+}
