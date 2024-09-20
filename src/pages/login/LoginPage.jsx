@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 function LoginPage() {
 
     const { signIn } = useAuth()
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
     const { register, handleSubmit, formState } = useForm()
     const { errors, isSubmitting } = formState
 
@@ -13,7 +13,7 @@ function LoginPage() {
         console.log(dados)
         try {
             await signIn(dados)
-            // navigate('/dashboard')
+            navigate('/dashboard')
         } catch (error) {
             alert(error)
         }
@@ -26,6 +26,23 @@ function LoginPage() {
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <img src="https://img.freepik.com/fotos-gratis/variedade-de-itens-de-viagem-ainda-vida_23-2149617651.jpg?t=st=1726450655~exp=1726454255~hmac=ed076420a0a5f0596ff0faa53c094dfa78281d5240141684d39702017756bfc6&w=1060" alt="Imagem de viagem" height="200" />
                         <h1 className="h3 mb-3 fw-normal">Efetuar login</h1>
+                        <div className="form-floating">
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="floatingInput"
+                                placeholder="digite seu nome"
+                                {...register('nome', {
+                                    required: {
+                                        value: true,
+                                        message: 'Campo obrigatório.'
+                                    }
+                                })}
+                            />
+                            <label htmlFor="floatingInput">Nome</label>
+                        </div>
+                        {errors.nome && <span className='text-danger text-sm'>{errors.nome.message}</span>}
+
                         <div className="form-floating">
                             <input
                                 type="email"
@@ -63,7 +80,7 @@ function LoginPage() {
                         <button className="btn btn-primary w-100 py-2" type="submit" disabled={isSubmitting}>{isSubmitting ? 'Carregando...' : 'Entrar'}</button>
                         <p className="mt-5 mb-3 text-body-secondary">Viagem365 &copy; 2024</p>
                         <p>
-                            {/* Não possui cadastro? <Link to="/cadastro">Cadastra-se</Link> */}
+                            Não possui cadastro? <Link to="/cadastro">Cadastra-se</Link>
                         </p>
 
                     </form>

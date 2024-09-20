@@ -4,7 +4,8 @@ const urlDaAPI = 'http://localhost:3000/usuarios'
 
 export const AuthContext = createContext({
     user: null,
-    signIn: async () => { }
+    signIn: async () => { },
+    // signOut: () => { }
 })
 
 export function AuthProvider({ children }) {
@@ -15,8 +16,8 @@ export function AuthProvider({ children }) {
             console.log('Buscando usuários...');
 
             const response = await fetch(`${urlDaAPI}usuarios?email=${email}&senha=${senha}`)
-            
-            if(!response.ok){
+
+            if (!response.ok) {
                 throw new Error('Erro ao buscar usuário.')
             }
 
@@ -35,9 +36,15 @@ export function AuthProvider({ children }) {
             return false
         }
     }
+    // function signOut() {
+    //     setUser(null)
+    //     localStorage.removeItem('@viagem365:userLogger')
+    //     localStorage.removeItem('@viagem365:token')
+    // }
+
 
     return (
-        <AuthProvider.Provider value={{ user, signIn, signOut }}>
+        <AuthProvider.Provider value={{ user, signIn }}>
             {children}
         </AuthProvider.Provider>
     )
