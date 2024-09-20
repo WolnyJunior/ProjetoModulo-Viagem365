@@ -1,0 +1,145 @@
+{
+    "destinos": [
+      {
+        "id": 1,
+        "imagem": "https://www.parquedocaracol.com/content-wp/uploads/2017/11/cascata-do-caracol.jpg",
+        "nome": "Cachoeira do Caracol",
+        "localizacao": "Canela, Rio Grande do Sul",
+        "descricao": "Uma das cachoeiras mais famosas do Brasil, localizada no Parque Estadual do Caracol."
+      },
+      {
+        "id": 2,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfv4Sw3rIP-DgKw6poXafEvUSnP6_4VK7jpA&s",
+        "nome": "Trilha do Rio do Boi",
+        "localizacao": "Cambará do Sul, Rio Grande do Sul",
+        "descricao": "Trilha desafiadora dentro do cânion Itaimbezinho, com vistas impressionantes."
+      },
+      {
+        "id": 3,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ3p90hL8iZ5pJ9KcAo0l9FvE5S8DKB78ucg&s",
+        "nome": "Cachoeira do Avencal",
+        "localizacao": "Urubici, Santa Catarina",
+        "descricao": "Cachoeira de 100 metros de altura, famosa pelo rapel e belas vistas."
+      },
+      {
+        "id": 4,
+        "imagem": "https://www.viagensecaminhos.com/wp-content/uploads/2010/06/canion-coxilha-e-monte-negro-sao-jose-dos-ausentes.jpg",
+        "nome": "Trilha do Pico do Monte Negro",
+        "localizacao": "São José dos Ausentes, RS",
+        "descricao": "A trilha leva ao ponto mais alto do estado, com vistas panorâmicas incríveis."
+      },
+      {
+        "id": 5,
+        "imagem": "https://classic.exame.com/wp-content/uploads/2021/09/veu-de-noiva-chapada-guimaraes-mt-1.jpg?quality=70&strip=info&w=1024",
+        "nome": "Cachoeira Véu da Noiva",
+        "localizacao": "Nova Petrópolis, Rio Grande do Sul",
+        "descricao": "Cachoeira charmosa em um ambiente cercado de natureza exuberante."
+      },
+      {
+        "id": 6,
+        "imagem": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/1c/2f/58/morro-da-igreja.jpg?w=1200&h=-1&s=1",
+        "nome": "Trilha do Morro da Igreja",
+        "localizacao": "Urubici, Santa Catarina",
+        "descricao": "Acesso ao ponto mais frio do Brasil, com vista para a Pedra Furada."
+      },
+      {
+        "id": 7,
+        "imagem": "https://passagemcomprada.com.br/wp-content/uploads/2020/11/Cascata-Salto-Ventoso-9-1024x768.jpg",
+        "nome": "Cachoeira do Salto Ventoso",
+        "localizacao": "Farroupilha, Rio Grande do Sul",
+        "descricao": "Uma cachoeira imponente, com 56 metros de altura, onde é possível caminhar por trás da queda."
+      },
+      {
+        "id": 8,
+        "imagem": "https://i.pinimg.com/originals/8e/16/a9/8e16a991bb89148c5e0c822e0689fe5a.png",
+        "nome": "Trilha das Piscinas Naturais",
+        "localizacao": "Bombinhas, Santa Catarina",
+        "descricao": "Trilha leve com vistas paradisíacas e piscinas naturais para banho."
+      },
+      {
+        "id": 9,
+        "imagem": "https://passeandodemoto.com/wp-content/uploads/2021/03/panelao-42.jpg",
+        "nome": "Cachoeira do Panelão",
+        "localizacao": "Três Coroas, Rio Grande do Sul",
+        "descricao": "Queda d'água em um local tranquilo, ideal para relaxar e nadar."
+      },
+      {
+        "id": 10,
+        "imagem": "https://trilhandomontanhas.com/arquivos/2017-04/serra-do-rio-do-rastro-bom-jardim-da-serra-sc-por-edson-maior.jpg",
+        "nome": "Trilha da Serra do Rio do Rastro",
+        "localizacao": "Lauro Müller, Santa Catarina",
+        "descricao": "Caminhada em uma das estradas mais sinuosas e deslumbrantes do Brasil."
+      },
+      {
+        "id": 11,
+        "imagem": "https://retratosdaserra.com/wp-content/uploads/2023/09/parque-da-ronda-61-resized.jpg",
+        "nome": "Cachoeira da Ronda",
+        "localizacao": "São Francisco de Paula, Rio Grande do Sul",
+        "descricao": "Localizada em uma área de floresta preservada, com acesso a trilhas e mirantes."
+      },
+      {
+        "id": 12,
+        "imagem": "https://www.melevaviajar.com.br/wp-content/uploads/2016/09/Trilha_RosaNorte_PraiadaFerrugem-2.jpg",
+        "nome": "Trilha da Praia do Rosa",
+        "localizacao": "Imbituba, Santa Catarina",
+        "descricao": "Trilha costeira com lindas vistas do mar e acesso a praias paradisíacas."
+      },
+      {
+        "id": 13,
+        "imagem": "https://i2.wp.com/melevaembora.com.br/wp-content/uploads/2019/10/foto-de-jaquirana-18-1.jpg?resize=1000%2C667&ssl=1",
+        "nome": "Cachoeira Passo do S",
+        "localizacao": "Jaquirana, Rio Grande do Sul",
+        "descricao": "Famosa pela sua formação em formato de 'S' e pela tranquilidade do local."
+      },
+      {
+        "id": 14,
+        "imagem": "https://www.viajali.com.br/wp-content/uploads/2020/12/morro-dos-conventos-1.jpg",
+        "nome": "Trilha do Morro dos Conventos",
+        "localizacao": "Araranguá, Santa Catarina",
+        "descricao": "Trilha que oferece vista panorâmica da costa e das dunas da região."
+      },
+      {
+        "id": 15,
+        "imagem": "https://live.staticflickr.com/65535/50770054778_63cccf8661_z.jpg",
+        "nome": "Cachoeira da Barrinha",
+        "localizacao": "Canela, Rio Grande do Sul",
+        "descricao": "Pequena cachoeira escondida em uma área preservada, com acesso por trilha."
+      },
+      {
+        "id": 16,
+        "imagem": "https://destinoflorianopolis.com.br/wp-content/uploads/2017/06/Trilha-Lagoinha-do-Leste-Floripa-1024x554.jpg",
+        "nome": "Trilha da Praia de Lagoinha do Leste",
+        "localizacao": "Florianópolis, Santa Catarina",
+        "descricao": "Trilha exigente, mas recompensadora, levando a uma praia isolada e deslumbrante."
+      },
+      {
+        "id": 17,
+        "imagem": "https://coloniadohellmutt.wordpress.com/wp-content/uploads/2014/06/22.jpg",
+        "nome": "Cachoeira da Fumaça",
+        "localizacao": "Picada Café, Rio Grande do Sul",
+        "descricao": "Queda d'água alta e estreita, cercada por uma mata exuberante."
+      },
+      {
+        "id": 18,
+        "imagem": "https://s2.wklcdn.com/image_115/3477145/83194077/53792891.400x300.jpg",
+        "nome": "Trilha do Farol de Santa Marta",
+        "localizacao": "Laguna, Santa Catarina",
+        "descricao": "Trilha leve com vista para o farol e para as praias ao redor."
+      },
+      {
+        "id": 19,
+        "imagem": "https://www.viagensecaminhos.com/wp-content/uploads/2019/08/cascata-das-andorinhas-rolante.jpg",
+        "nome": "Cachoeira das Andorinhas",
+        "localizacao": "Tiradentes do Sul, Rio Grande do Sul",
+        "descricao": "Queda d'água impressionante com piscinas naturais para banho."
+      },
+      {
+        "id": 20,
+        "imagem": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/52/aa/aa/praia-brava-boicucanga.jpg?w=1200&h=-1&s=1",
+        "nome": "Trilha da Praia Brava",
+        "localizacao": "Itajaí, Santa Catarina",
+        "descricao": "Caminhada que leva a uma das praias mais bonitas e agitadas do estado."
+      }
+    ]
+  }
+  
