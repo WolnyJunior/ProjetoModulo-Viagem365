@@ -16,9 +16,75 @@
             "bairro": "Centro",
             "localidade": "",
             "uf": ""
+        },
+        {
+            "nome": "sorin",
+            "email": "sorin@sorin.com",
+            "sexo": "masculino",
+            "cpf": "11111111111",
+            "dataNascimento": "18/03/1989",
+            "senha": "12345678",
+            "cep": "96784518",
+            "numero": "20",
+            "cidade": "Camaqua",
+            "estado": "RS",
+            "logradouro": "Carlinda Vicente Rodrigues",
+            "complemento": "",
+            "bairro": "Cônego Luiz Walter Hanquet",
+            "localidade": "",
+            "uf": ""
         }
     ],
     "destinos": [
-        {}
+        {
+            "nome": "Trilha da Pedra Branca",
+            "descricao": "Trilha de dificuldade moderada com vista panorâmica.",
+            "rua": "Estrada Geral da Pedra Branca",
+            "bairro": "Pedra Branca",
+            "cidade": "Palhoça",
+            "estado": "SC",
+            "latitude": "-27.64545",
+            "longitude": "-48.67953"
+        },
+        {
+            "nome": "Cachoeira do Caracol",
+            "descricao": "Uma das cachoeiras mais visitadas do sul do Brasil, com uma queda de 131 metros.",
+            "rua": "Rodovia RS-466",
+            "bairro": "Caracol",
+            "cidade": "Canela",
+            "estado": "RS",
+            "latitude": "-29.35692",
+            "longitude": "-50.83977"
+        },
+        {
+            "nome": "Praia do Rosa",
+            "descricao": "Praia famosa por sua beleza natural e surf.",
+            "rua": "Avenida Porto Novo",
+            "bairro": "Ibiraquera",
+            "cidade": "Imbituba",
+            "estado": "SC",
+            "latitude": "-28.12642",
+            "longitude": "-48.65514"
+        },
+        {
+            "nome": "Cânion Fortaleza",
+            "descricao": "Um dos maiores cânions da América do Sul, com trilhas incríveis e vistas espetaculares.",
+            "rua": "Estrada do Faxinal",
+            "bairro": "Parque Nacional da Serra Geral",
+            "cidade": "Cambará do Sul",
+            "estado": "RS",
+            "latitude": "-29.16157",
+            "longitude": "-50.00998"
+        },
+        {
+            "nome": "Cachoeira do Avencal",
+            "descricao": "Queda d'água imponente, com 100 metros de altura, ideal para esportes radicais.",
+            "rua": "Estrada Geral de Santa Clara",
+            "bairro": "Avencal",
+            "cidade": "Urubici",
+            "estado": "SC",
+            "latitude": "-28.01511",
+            "longitude": "-49.59193"
+        }
     ]
 }
