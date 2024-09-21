@@ -1,0 +1,27 @@
+.card {
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, .5);
+    transition: all .7s;
+}
+
+.card:hover{
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, .9);
+    border: 2px solid rgba(0, 0, 0, .9);
+}
+
+.maps{
+    border: 2px solid rgba(0, 0, 0, .5);
+    margin: 5px;
+}
+
+.card h5, .info h6 {
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+

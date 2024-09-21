@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    /* Ajusta o número de colunas com base no tamanho da tela */
+    gap: 20px;
+}
+
+.cardDestinos li {
+    width: 280px;
+    /* margin: 10px 0; */
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, .5);
+    transition: all .5s;
+}
+
+.cardDestinos li:hover {
+    transform: scale(1.08);
+}
+
+.cardDestinos img {
+    width: 100%;
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+.cardDestinos h5,
+.cardDestinos h6 {
+    text-align: center;
+}
+
+.cardDestinos p{
+    margin: 8px;
+}
