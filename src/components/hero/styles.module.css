@@ -1,7 +1,30 @@
 .container{
     height: 50vh;
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.modalContent {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

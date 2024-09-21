@@ -1,6 +1,13 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 28px;
+}
+
+.homeNavbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

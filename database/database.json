@@ -44,7 +44,9 @@
             "cidade": "Palhoça",
             "estado": "SC",
             "latitude": "-27.64545",
-            "longitude": "-48.67953"
+            "longitude": "-48.67953",
+            "preco": "R$ 50,00",
+            "data": "2024-09-25"
         },
         {
             "nome": "Cachoeira do Caracol",
@@ -54,7 +56,9 @@
             "cidade": "Canela",
             "estado": "RS",
             "latitude": "-29.35692",
-            "longitude": "-50.83977"
+            "longitude": "-50.83977",
+            "preco": "R$ 70,00",
+            "data": "2024-10-02"
         },
         {
             "nome": "Praia do Rosa",
@@ -64,7 +68,9 @@
             "cidade": "Imbituba",
             "estado": "SC",
             "latitude": "-28.12642",
-            "longitude": "-48.65514"
+            "longitude": "-48.65514",
+            "preco": "R$ 30,00",
+            "data": "2024-10-10"
         },
         {
             "nome": "Cânion Fortaleza",
@@ -74,7 +80,9 @@
             "cidade": "Cambará do Sul",
             "estado": "RS",
             "latitude": "-29.16157",
-            "longitude": "-50.00998"
+            "longitude": "-50.00998",
+            "preco": "R$ 80,00",
+            "data": "2024-09-30"
         },
         {
             "nome": "Cachoeira do Avencal",
@@ -84,7 +92,9 @@
             "cidade": "Urubici",
             "estado": "SC",
             "latitude": "-28.01511",
-            "longitude": "-49.59193"
+            "longitude": "-49.59193",
+            "preco": "R$ 60,00",
+            "data": "2024-09-28"
         }
     ]
 }

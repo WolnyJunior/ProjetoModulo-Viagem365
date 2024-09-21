@@ -1,6 +1,7 @@
 import { User, Earth } from 'lucide-react'
 import styles from './styles.module.css'
 import { useBuscas } from '../../contexts/busca'
+import { Link } from 'react-router-dom'
 
 function Card() {
     const { locais, usuarios } = useBuscas()
@@ -12,14 +13,14 @@ function Card() {
                     <h4>Usuário</h4>
                     <span>{usuarios ? `${usuarios.length} Usuarios` : 'Carregando...'}</span>
                     <div className={styles.icons}>
-                        <span><User /></span>
+                        <Link><span><User /></span></Link>
                     </div>
                 </div>
                 <div className={`${styles.userCard} bg-primary-subtle text-secondary`}>
                     <h4>Passeios</h4>
                     <span>{locais ? `${locais.length} Locais` : 'Carregando...'}</span>
                     <div className={styles.icons}>
-                        <span><Earth /></span>
+                        <Link to='/listar-destinos'><span><Earth /></span></Link>
                     </div>
                 </div>
             </div>

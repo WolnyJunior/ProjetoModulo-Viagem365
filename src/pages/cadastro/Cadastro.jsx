@@ -156,7 +156,7 @@ function CadastroPage() {
                         <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
 
                         <p className="mt-5 mb-3 text-body-secondary">Viagem365 &copy; 2024</p>
-                        {/* <p>Já possui cadastro ? <Link to={-1}>Efetuar login</Link></p> */}
+                        <p>Já possui cadastro ? <Link to={-1}>Efetuar login</Link></p>
                     </form>
                 </div>
             </main>
